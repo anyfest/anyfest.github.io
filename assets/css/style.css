@@ -1448,7 +1448,7 @@ form.ts-labels-inside-input .form-group label.focused,
 
 ul {
     line-height: 2.5rem;
-    list-style: none;
+    /*list-style: none;*/
     padding-left: 0;
 }
 
@@ -2179,7 +2179,21 @@ E. Template Specific Elements
     height: 100% !important;
 }
 
+@media (max-width: 36rem) {
+    
+    .ts-background-image {
+        background-image: url(../img/hands.jpg);
+    }
+}
+
+@media (min-width: 36rem) {
+    .ts-background-image {
+        background-image: url(../img/new-girl.png);
+    }
+}
+
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
+
     html {
         font-size: 85%;
     }
@@ -2218,6 +2232,7 @@ E. Template Specific Elements
 }
 
 @media (min-width: 48rem) and (max-width: 61.9375rem) {
+
     html {
         font-size: 90%;
     }
@@ -2253,9 +2268,11 @@ E. Template Specific Elements
     .ts-promo-numbers h2 {
         font-size: 2.5rem;
     }
+
 }
 
 @media (min-width: 62rem) and (max-width: 74.9375rem) {
+
     html {
         font-size: 95%;
     }
@@ -2303,6 +2320,7 @@ E. Template Specific Elements
 }
 
 @media (min-width: 75rem) {
+
     html {
         font-size: 100%;
     }
@@ -2370,6 +2388,7 @@ E. Template Specific Elements
 }
 
 @media (max-width: 35.9375rem) {
+
     h1, .ts-h1 {
         margin-bottom: 1.25rem;
     }
@@ -2392,6 +2411,7 @@ E. Template Specific Elements
 }
 
 @media (min-width: 36rem) and (max-width: 61.9375rem) {
+
     h1, .ts-h1 {
         margin-bottom: 1.875rem;
     }
@@ -2406,6 +2426,7 @@ E. Template Specific Elements
 }
 
 @media (min-width: 62rem) {
+
     h1, .ts-h1 {
         margin-bottom: 2.5rem;
     }
@@ -2432,12 +2453,14 @@ E. Template Specific Elements
 }
 
 @media (max-width: 47.9375rem) {
+
     h4, .ts-h4 {
         font-size: 1.125rem;
     }
 }
 
 @media (min-width: 48rem) {
+
     h4, .ts-h4 {
         font-size: 1.25rem;
     }
@@ -2452,12 +2475,14 @@ E. Template Specific Elements
 }
 
 @media (max-width: 61.9375rem) {
+
     .ts-card__image {
         height: 15.625rem;
     }
 }
 
 @media (min-width: 36rem) {
+
     .navbar.navbar-expand-sm .navbar-nav {
         align-items: center;
     }
